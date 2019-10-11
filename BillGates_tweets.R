@@ -6,8 +6,8 @@ library(httpuv)
 
 
 
-cred <- OAuthFactory$new(consumerKey="WbRiXIgVtyCJoJ5xvPFSb4Bj9 ",
-                         consumerSecret="9kNUFBNGq1WtOnpY9ggzImmZ0A6I6nzIOXfqTJO7wJxUXJrkrU ",
+cred <- OAuthFactory$new(consumerKey="WbRiXIgVtyCJoJ5######### ",
+                         consumerSecret="9kNUFBNGq1WtOnpY9ggzImmZ0A6I6nzIOX################ ",
                          requestURL="https://api.twitter.com/oauth/request_token",
                          accessURL="https://api.twitter.com/oauth/access_token",
                          authURL="https://api.twitter.com/oauth/authorize")
@@ -20,10 +20,10 @@ load("twitter authentication.Rdata")
 
 
 
-setup_twitter_oauth("WbRiXIgVtyCJoJ5xvPFSb4Bj9", 
-                    "9kNUFBNGq1WtOnpY9ggzImmZ0A6I6nzIOXfqTJO7wJxUXJrkrU",
-                    "2524690621-D1gbIXODKhxXkdbns3fUyf004ij713h6aHwlkaq", ##### Access token
-                    "lZ3ZOcMzHgUKsQ2X5mOWZKvo9mw5SsEw1zlqq4EO31LXH")      ##### Access token secret key
+setup_twitter_oauth("WbRiXIgVtyCJoJ5##########", 
+                    "9kNUFBNGq1WtOnpY9ggzImmZ0A6I6nzIOX################",
+                    "2524690621-D1gbIXODKhxXkdbns3fUyf#################", ##### Access token
+                    "lZ3ZOcMzHgUKsQ2X5mOWZKvo9mw##################")      ##### Access token secret key
 
 Tweets <- userTimeline('BillGAtes', n = 100)
 
